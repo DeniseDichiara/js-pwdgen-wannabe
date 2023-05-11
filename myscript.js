@@ -5,8 +5,7 @@ const userSurname = prompt ('Insert your Surname');
 
 let userFavColor = prompt ('Insert your favourite color');
 
+document.getElementById('name-fav-color') .innerHTML = userFavColor;
 
+console.log(userFavColor);
 
-console.log(userName);
-
-document.getElementById()
