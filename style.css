@@ -1,20 +1,34 @@
-header{
+header {
     width: 100wh;
     height: 100px;
     background-color: deeppink;
 }
 
-main{
+main {
     height: calc(100vh - 100px);
 }
-.my_side-bar{
+
+.my_side-bar {
     width: 20%;
     height: 100%;
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.my_main-section{
-    width:80%;
+.my_main-section {
+    width: 80%;
     height: 100%;
     background-color: gold;
+}
+
+.my_p-pink {
+    color: deeppink;
+}
+
+.my_flex-colum {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
