@@ -32,3 +32,8 @@ main {
     flex-direction: column;
     align-content: space-between;
 }
+
+.my_neon:hover{
+    background-color: black;
+    opacity: 0.5;
+}
